@@ -1,0 +1,27 @@
+.review-card {
+	display: flex;
+	flex-direction: column;
+	background-color: #db6850;
+	border-radius: 10px;
+	box-shadow: 5px 5px 15px rgb(0, 0, 0);
+}
+.review-card p {
+	text-align: justify;
+	padding: 10px 20px;
+	color: rgb(46 46 46);
+}
+.review-card h1 {
+	color: black;
+	margin-top: 20px;
+}
+.review-card h3 {
+	margin: 0;
+}
+
+.reviews-section {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 300px));
+	grid-template-rows: auto;
+	justify-content: center;
+	gap: 40px;
+}
